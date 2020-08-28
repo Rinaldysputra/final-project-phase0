@@ -14,10 +14,8 @@ Selalu luangkan waktu untuk mengganti password akun kesayangan anda secara berka
 Your password your Privacy!
 
 
-/*
-HOW TO USE
+// HOW TO USE
 - Klik panjang karakter yang diinginkan diantara 4 hingga 20 karakter
 - Centang settingan karakter yang diinginkan
 - Klik 'Generate Password'! Suara berhasil akan keluar ketika password sudah berhasil dibuat.
 - Selamat! kamu tinggal klik copy di samping hasil generate password lalu paste di tempat yang kamu inginkan!
-*/
