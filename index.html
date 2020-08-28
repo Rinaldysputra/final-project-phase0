@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1><marquee behavior="scroll" direction="left" scrollamount="10">RANDOM PASSWORD GENERATOR</marquee>
+            </h1>
+            <div class="output">
+                <span id="result"></span>
+                <button class="clipboard" id="clipboard">
+                    <i class="fa fa-file"></i>
+                </button>
+            </div>
+            <div class="settings">
+                <div class="setting">
+                    <label for="length">Panjang Karakter: 4 - 20</label>
+                    <input type="number" min='4' max='20' value='20' id="length" onKeyDown="return false"/>
+                </div>
+                <div class="setting">
+                    <label>Masukkan Huruf Besar: ( A - Z )</label> 
+                    <input type="checkbox" id="uppercase" checked />
+                </div>
+                <div class="setting">
+                    <label>Masukkan Huruf Kecil:  ( a-z )</label> 
+                    <input type="checkbox" id="lowercase" checked />
+                </div>
+                <div class="setting">
+                    <label>Angka: ( 0123456789 )</label> 
+                    <input type="checkbox" id="numbers" checked />
+                </div>
+                <div class="setting">
+                    <label>Simbol:  ( !@#$%^&*(){}[]=<>/,. )</label> 
+                    <input type="checkbox" id="symbols" checked />
+                </div>
+            </div>
+            <button class="btn" id="generate">
+                <a style="text-decoration:none" href="#" onmousedown="success.play()">Generate Password</a>
+            </button>
+        </div>
+        <div class="footer">
+            <p>Powered by Rinaldy :)</p>
+          </div>
+        <script src="main.js"></script>
+    </body>
+</html>
